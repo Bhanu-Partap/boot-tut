@@ -1,0 +1,23 @@
+$info: orange;
+$body-bg:white;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.card-body{
+    background-color: rgba(70, 66, 66, 0.781);
+}
+.card-title{
+    color: orange;
+    font-size: 30px;
+}
+
+.navbar::before{
+    content:' ';
+    min-height: 100%;
+    width: 100%;`   `
+    background-color: grey;
+    position:absolute;
+    backdrop-filter: blur(3px);
+    z-index: -1;
+}
